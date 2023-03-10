@@ -7,15 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Exemplo aula 002</h1>
 
     <?php 
-    $sobrenome = "guanabara";
+        //0x = hexadecimal; 0b = binário; 0 = octal;
 
-    date_default_timezone_set("America/Sao_Paulo");
-    echo "Hoje é dia!!" . date("d/m/Y");
-    echo " e a hora atual é : " . date("G:i:s");
+        $num = 300;
+        echo "O valor da variável é : $num";
+    
+        $nom = "Mauro";
+        $snom = "Kruger"; 
 
+        echo "Meu nome é $nom Luiz $snom"; 
+    
     ?>
+
+
+
+    
 </body>
 </html>
