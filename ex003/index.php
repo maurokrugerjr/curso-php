@@ -12,7 +12,7 @@
         //0x = hexadecimal; 0b = binário; 0 = octal;
 
         $num = 300;
-        echo "O valor da variável é : $num";
+        echo "O val or da variável é : $num";
     
         $nom = "Mauro";
         $snom = "Kruger"; 

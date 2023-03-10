@@ -12,6 +12,6 @@
         echo "Olá mundo! \u{1F30E}";
     ?>
     </h1> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint tempora vitae a repudiandae mollitia aut impedit ipsa ex nostrum, libero amet deleniti veniam debitis facere cupiditate asperiores consequuntur nisi.</p>
+    <p>Lorem ipsum dolor si t amet consectetur adipisicing elit. Officiis sint tempora vitae a repudiandae mollitia aut impedit ipsa ex nostrum, libero amet deleniti veniam debitis facere cupiditate asperiores consequuntur nisi.</p>
 </body>
 </html>
