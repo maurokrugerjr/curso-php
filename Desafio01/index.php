@@ -14,10 +14,9 @@
 
         if ($soma > 20){
             $resultado = $soma + 8;
-        }
-        else
+        } else {
             $resultado = $soma - 5;
-        
+        }
         echo "O resultado é : $resultado";
     ?>
 </body>
