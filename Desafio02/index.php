@@ -23,8 +23,9 @@
         elseif (is_int($div3)){
             echo "O $numero é divisível por 2";
         }
-        else 
+        else {
             echo "O $numero não é divisível por 10, 5 ou 2.";
+        }
     ?>
 
 
