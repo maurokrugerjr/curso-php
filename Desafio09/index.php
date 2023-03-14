@@ -50,16 +50,23 @@
 
         $arrayNumeros = [intval($numero_1), intval($numero_2), intval($numero_3), intval($numero_4), intval($numero_5), intval($numero_6), intval($numero_7), intval($numero_8), intval($numero_9), intval($numero_10)]; 
 
-        
+    
 
-        foreach ($arrayNumeros as $numero) {
-            ($numero < 0) ? $valorNegativo[]=$numero : $valorPositivo[]=$numero;
-            
-        } 
+
+        function mostraNumero ($array){
+            if ($array[0] == 0){
+                exit;
+            }
+            foreach ($array as $numero) {
+                ($numero < 0) ? $valorNegativo[]=$numero : $valorPositivo[]=$numero;
+            } 
+            echo "Quantidade de numeros negativos é : " . count($valorNegativo) . "<br>";
+            echo "Quantidade de numeros postivos é : " . count($valorPositivo);
+        }
+        mostraNumero($arrayNumeros);
 
         //count () função para somar itens da array
-        echo "Quantidade de numeros negativos é : " . count($valorNegativo) . "<br>";
-        echo "Quantidade de numeros postivos é : " . count($valorPositivo);
+    
     
 
 
